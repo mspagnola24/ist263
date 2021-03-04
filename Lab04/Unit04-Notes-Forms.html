@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 04 Notes - Forms</title>
+    </head>
+    <body>
+        <h1>College Application</h1>
+        <form action="mailto:mjspagno@syr.edu" method="POST">
+            <label for="firstname">Enter first name:</label>
+            <input type="text" name="firstname" id="firstname">
+
+            <label for="comments">Enter your comments</label>
+            <textarea name="comments" id="comments" rows="10" cols="100">Tell us what you think!!!</textarea>
+
+            <label for="salutation_mr">Mr.</label>
+            <input type="radio" name="salutation" id="salutation" value="Mr.">
+            <label for="salutation_ms">Ms.</label>
+            <input type="radio" name="salutation" id="salutation" value="Ms.">
+            <label for="salutation_dr">Dr.</label>
+            <input type="radio" name="salutation" id="salutation" value="Dr.">
+
+            <label for="veteran">Are you a veteran?</label>
+            <input type="checkbox" name="veteran" id="veteran" value="yes"><br>
+
+            <label for="year">Year in school</label>
+            <select name="year" id="year">
+                <option value="Fr">Freshman</option>
+                <option value="So">Sophomore</option>
+                <option value="Jr">Junior</option>
+                <option value="Sr">Senior</option>
+            </select><br> 
+
+
+            <input type="submit" value="Send Application">
+    </body>
+</html>
