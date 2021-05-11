@@ -7,3 +7,7 @@ a:hover {color: #ff00bf}
 body {
     background-color: #edebda;
 }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
