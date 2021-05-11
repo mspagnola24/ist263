@@ -6,8 +6,8 @@ h1 {text-align: center;
 }
 
 a:link {color: #00ff00}
-a:visited {color: #0000ff}
-a:hover {color: #ff00bf}
+a:visited {color: #ff0000}
+a:hover {color: #00ffea}
 
 body {
     background-color: #ebeb4c;
