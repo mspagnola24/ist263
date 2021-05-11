@@ -1,4 +1,7 @@
-h1 {color: #0000ff;}
+h1 {color: #0000ff;
+    border-radius: 25px; font-family: Arial, Helvetica, sans-serif;
+    border: 2px cornsilk;
+}
 
 a:link {color: #00ff00}
 a:visited {color: #0000ff}
