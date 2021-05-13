@@ -4,6 +4,13 @@ h1 {text-align: center;
     border-radius: 25px; font-family: Arial, Helvetica, sans-serif;
     border: 4px cornsilk;
 }
+img {text-align: center;
+
+}
+
+footer {text-align: center;
+
+}
 
 a:link {color: #00ff00}
 a:visited {color: #000000}
