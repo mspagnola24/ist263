@@ -9,12 +9,18 @@ footer {text-align: center;
 
 }
 
+img {
+    width: 400px;
+    height: auto;
+}
+
 a:link {color: #00ff00}
 a:visited {color: #000000}
 a:hover {color: #ff0000}
 
 body {text-align: center;
     background-color: #80d1f1;
+    
 }
 
 p {color: #000000
