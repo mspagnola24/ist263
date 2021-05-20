@@ -10,18 +10,22 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-        <script>
-            function TryAgain () {
-            alert('Wrong Shell - Try Again!');
-            }
-            function  WinnerMessage() {
-            alert('You Won!');
-            }
-        </script>
-   
     </head>
 
+<script>
+    function myfunction() {
+        var txt;
+        var person = prompt("Please enter your email to recieve updates on Blockchain news!:", "example@somthing.com");
+        if (person == null || person == "") {
+            txt = "User cancelled prompt.";
+        } else {
+            txt = "Hello" + person + "How are you today?";
+        }
+        document.getElementById("demo").innerHTML = txt;
+    }
+</script>
 
+<body onload="myfunction();"></body>
 
     <nav>
 
